@@ -1,0 +1,151 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+h1 {
+    line-height: 1.5;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    margin-left: 50px;
+}
+h1 strong {
+    color: #026fff;
+}
+h2 {
+    color: #026fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.portfolio-design-details {
+    width: 500px;
+}
+.portfolio-design-image {
+    width: 500px;
+}
+header {
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+header a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    padding: 0 10px;
+}
+header ul {
+    display: flex;
+}
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+figure {
+    margin: 0;
+}
+.section-main {
+    height: 300px;
+    background-color: #1b2127;
+    background-image: url(./foto.jpg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    display: flex;
+    align-items: center;
+}
+.portfolio-design {
+    background: #fafafa;
+}
+.portfolio-design-title {
+    padding: 20px;
+}
+.portfolio-design-logotype {
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 15px;
+    background-color: white;
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+.portfolio-edition{
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 15px;
+    background-color: white;
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+.portfolio-edition-container {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.portfolio-programmer-title {
+    padding: 20px;
+}
+.portfolio-programmer-proyect{
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 15px;
+    background-color: white;
+    font-size: 24px;
+    
+}
+.contact {
+    background-color: #026fff;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.social {
+    border: 1px solid #1b2127;
+}
+.social-link {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid #1b2127;
+    margin: 0 10px;
+}
+
+.form-contact input{
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px 20px 10px 25px;
+    background-image: url(./baseline-email-24px.svg);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+form button{
+    display: block;
+    margin: 10px;
+    background: transparent;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+}
+footer {
+    height: 100px;;
+    background-color: #1b2127;
+}
